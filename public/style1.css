@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+header{
+    text-size-adjust: 2;
+    text-align: Left;
+    
+
+}
+
+h1 {
+    color: blue
+}
+
+li{
+    color: red;
+    text-align: left;
+}
+
+div{
+    color: aqua;
+}
+
+body {
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    display: flex;
+    align-items: top;
+    justify-content: top;
+    flex-direction: column;
+    height: 100vh;
+    margin: 100;
+    text-decoration-style: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/04/13/55/shanghai-588283_1280.jpg'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin réel de votre image */
+}
+
+.container p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+}
+
+.container span {
+    font-size: 12px;
+}
